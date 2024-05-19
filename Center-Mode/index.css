@@ -1,0 +1,26 @@
+/* ---------------------------- way 1 ------------------------------- */
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* ---------------------------- way 2 ------------------------------- */
+.container {
+  height: 100vh; /* Use viewport height for full-screen centering */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 40px;
+}
